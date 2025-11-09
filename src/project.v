@@ -23,7 +23,7 @@ module tt_um_Onchip_RCO (
     rvco_11st_buffer rvco_11st_buffer(
         .vdd(VDPWR),
         .vss(VGND),
-        .vrst(ui_in[0]),
+        .vrst(ui_in[7]),
         .vctrn(ua[0]),
         .out(ua[1])
     )
