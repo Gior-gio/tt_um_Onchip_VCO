@@ -29,8 +29,8 @@ module tt_um_Onchip_RCO (
     )
 
     // outputs 
-    assign uo_out[0] = ;
-    assign uo_out[1] = ;
+    assign uo_out[0] = VGND;
+    assign uo_out[1] = VGND;
     assign uo_out[2] = VGND;
     assign uo_out[3] = VGND;
     assign uo_out[4] = VGND;
