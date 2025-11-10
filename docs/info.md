@@ -9,9 +9,9 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-The circuit is an 11-stage ring oscillator voltage-controlled oscillator (RVCO). The basic oscillating stage consists of current-starved inverters controlled by an external input, Vctrn. Additionally, there is a Vrst pulse input that runs or stops the oscillator when it receives a low or high value. One of its phases is buffered and connected as an output.
+The circuit is an 11-stage ring oscillator voltage-controlled oscillator (RVCO). The basic oscillating stage consists of current-starved inverters controlled by an external input, VCTRN. Additionally, there is a VRST pulse input that runs or stops the oscillator when it receives a low or high value. One of its phases is buffered and connected as an output.
 
-The submission includes two oscillators. The first three analog pins are associated with the first oscillator in the following order: VRST, VCTRL, and OUT. The other three are associated with the second oscillator in the same order.
+The submission includes two oscillators. The first three analog pins are associated with the first oscillator in the following order: OUT, VCTRN, and VRST. The other three are associated with the second oscillator in the same order.
 
 ## How to test
 
