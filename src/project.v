@@ -23,17 +23,17 @@ module tt_um_Onchip_RCOx2 (
     rvco_11st_oscillator rvco_11st_oscillator1(
         .vdd(VDPWR),
         .vss(VGND),
-        .vrst(ui_in[7]),
-        .vctrn(ua[0]),
-        .out(ua[1])
+        .vrst(ua[0]),
+        .vctrn(ua[1]),
+        .out(ua[2])
     )
 
     rvco_11st_oscillator rvco_11st_oscillator2(
         .vdd(VDPWR),
         .vss(VGND),
-        .vrst(ui_in[7]),
-        .vctrn(ua[0]),
-        .out(ua[1])
+        .vrst(ua[3]),
+        .vctrn(ua[4]),
+        .out(ua[5])
     )
 
     // outputs 
