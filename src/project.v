@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_um_Onchip_RCO (
+module tt_um_Onchip_RCOx2 (
     input  wire       VGND,
     input  wire       VDPWR,    // 1.8v power supply
 //    input  wire       VAPWR,    // 3.3v power supply
@@ -20,7 +20,15 @@ module tt_um_Onchip_RCO (
     input  wire       rst_n     // reset_n - low to reset
 );
 
-    rvco_11st_buffer rvco_11st_buffer(
+    rvco_11st_oscillator rvco_11st_oscillator1(
+        .vdd(VDPWR),
+        .vss(VGND),
+        .vrst(ui_in[7]),
+        .vctrn(ua[0]),
+        .out(ua[1])
+    )
+
+    rvco_11st_oscillator rvco_11st_oscillator2(
         .vdd(VDPWR),
         .vss(VGND),
         .vrst(ui_in[7]),
