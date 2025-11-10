@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "Onchip - Ring VCO 11 stages x2"      # Project title
-  author:       "Jorge Angarita"      # Your name
+  author:       "Jorge Angarita & Ramon Sarmiento"      # Your name
   discord:      "Giorgi"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Two identical 11-stages ring oscillator voltage controled oscillator"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
