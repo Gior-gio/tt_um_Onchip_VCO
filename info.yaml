@@ -55,12 +55,12 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: "vrst1"
+  ua[0]: "out1"
   ua[1]: "vctrn1"
-  ua[2]: "out1"
-  ua[3]: "vrst2"
+  ua[2]: "vrst1"
+  ua[3]: "out2"
   ua[4]: "vctrn2"
-  ua[5]: "out2"
+  ua[5]: "vrst2"
 
 # Do not change!
 yaml_version: 6
